@@ -1,0 +1,89 @@
+name: SkyPvPv3
+author: RoyalByte | Adrian
+version: 3.2.2 RELEASE
+website: https://www.byte-evolve.de
+main: net.royalbyte.skypvp.SkyPvP
+
+commands:
+  skypvp:
+    aliases: [spvp]
+  vote:
+  ip:
+  gamemode:
+    aliases: [gm]
+  youtuber:
+  spawn:
+  clearlag:
+  lag:
+  update:
+  motd:
+  online:
+  fly:
+  vanish:
+    aliases: [v]
+  ban:
+  unban:
+  banpoints:
+    aliases: [bp]
+  unmute:
+  mute:
+  data:
+  top:
+  crate:
+  kick:
+  setwarp:
+  warp:
+  warps:
+  setkit:
+  kits:
+    aliases: [kit]
+  day:
+  night:
+  coins:
+  teamspeak:
+    aliases: [ts]
+  delwarp:
+  points:
+  kills:
+  deaths:
+  cookies:
+  umfrage:
+  ja:
+  nein:
+  ping:
+  heal:
+  feed:
+  nameitem:
+  skull:
+  discord:
+  chatclear:
+  rain:
+  chatmute:
+  broadcast:
+    aliases: [bc]
+  cmdwatch:
+  cmdwatchlist:
+  flylist:
+  vanishlist:
+  teamchat:
+    aliases: [tc]
+  pay:
+  setinstantkill:
+  stats:
+  event:
+  ranggutschein:
+  manage:
+  report:
+  stack:
+  rewards:
+  remsg:
+  msg:
+  invsee:
+  shop:
+  mobs:
+  workbench:
+    aliases: [wb]
+  repair:
+  anvil:
+  enderchest:
+    aliases: [ec]
